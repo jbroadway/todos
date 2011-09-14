@@ -80,7 +80,6 @@ switch ($_SERVER['REQUEST_METHOD']) {
 // output
 if ($error) {
 	error_log (sprintf ('%s %s: %s', $_SERVER['REQUEST_METHOD'], $_SERVER['REQUEST_URI'], $error));
-	$out = false;
 }
 
 echo json_encode ($out);
