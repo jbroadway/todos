@@ -4,7 +4,7 @@
 
 handler = todos/index
 name = Todos
-install = wiki/install
+install = todos/install
 version = 0.9-beta
 
 ; */ ?>
